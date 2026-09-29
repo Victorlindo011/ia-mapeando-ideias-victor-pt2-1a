@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esquecimento de Prazos e Trabalhos - QG do Victor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-slate-200 min-h-screen flex flex-col justify-between bg-[#0b0f17]">
+
+    <main class="max-w-4xl mx-auto px-4 py-10">
+        <a href="index.html" class="inline-flex items-center space-x-2 text-indigo-400 hover:text-indigo-300 text-sm font-semibold mb-6 transition-colors">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>Voltar ao QG Central</span>
+        </a>
+
+        <div class="glass-card rounded-3xl p-6 sm:p-8 mb-8 border border-purple-500/20">
+            <div class="flex items-center space-x-3 mb-3">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-purple-950/80 text-purple-300 border border-purple-800/50">
+                    <i class="fa-solid fa-graduation-cap mr-1"></i> Estudos
+                </span>
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-950/60 text-amber-400 border border-amber-800/40">
+                    Impacto Moderado
+                </span>
+            </div>
+            <h1 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-4">Esquecimento de Prazos e Trabalhos</h1>
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                Confiar na memória humana para lembrar datas, provas e entregas gera ansiedade constante de que algo importante foi esquecido.
+            </p>
+        </div>
+
+        <!-- Ilustração Vetorial SVG -->
+        <div class="glass-card rounded-3xl p-6 mb-8 flex justify-center items-center bg-slate-900/80">
+            <svg class="w-full max-w-md h-48 sm:h-64" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="250" rx="16" fill="#0f172a"/>
+                <rect x="110" y="60" width="180" height="130" rx="10" fill="#1e293b" stroke="#818cf8" stroke-width="2"/>
+                <path d="M110 90H290" stroke="#334155" stroke-width="2"/>
+                <circle cx="140" cy="120" r="8" fill="#10b981"/>
+                <circle cx="180" cy="120" r="8" fill="#ef4444"/>
+                <circle cx="220" cy="120" r="8" fill="#f59e0b"/>
+                <text x="200" y="215" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="sans-serif">Painel Único de Prazos (Segunda Mente)</text>
+            </svg>
+        </div>
+
+        <div class="space-y-6">
+            <div class="glass-card rounded-3xl p-6">
+                <h2 class="text-xl font-bold text-white mb-3 flex items-center">
+                    <i class="fa-solid fa-calendar-check text-purple-400 mr-2"></i> Construindo sua "Segunda Mente"
+                </h2>
+                <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                    Instale um sistema confiável para descarregar a obrigação de memorizar compromissos.
+                </p>
+                <div class="p-4 rounded-2xl bg-purple-950/30 border border-purple-800/40 text-xs sm:text-sm text-slate-300 space-y-2">
+                    <p>• <strong>Centralização Absoluta:</strong> Use apenas 1 plataforma (Google Agenda, Notion ou Trello).</p>
+                    <p>• <strong>Ritual do Domingo:</strong> Reserve 15 minutos ao final do fim de semana para mapear os compromissos dos próximos 7 dias.</p>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-3xl p-6">
+                <h3 class="text-lg font-bold text-white mb-4 flex items-center">
+                    <i class="fa-solid fa-square-check text-emerald-400 mr-2"></i> Passos de Implementação
+                </h3>
+                <div class="space-y-2">
+                    <label class="flex items-center p-3 rounded-xl bg-slate-900/80 border border-slate-800 cursor-pointer">
+                        <input type="checkbox" class="h-4 w-4 rounded border-slate-700 text-indigo-600 focus:ring-indigo-500 mr-3">
+                        <span class="text-xs sm:text-sm text-slate-300">Cadastrar todas as provas do semestre na agenda com alerta de 3 dias antes.</span>
+                    </label>
+                    <label class="flex items-center p-3 rounded-xl bg-slate-900/80 border border-slate-800 cursor-pointer">
+                        <input type="checkbox" class="h-4 w-4 rounded border-slate-700 text-indigo-600 focus:ring-indigo-500 mr-3">
+                        <span class="text-xs sm:text-sm text-slate-300">Eliminar post-its e papéis soltos na mesa de estudos.</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procrastinação Crônica nos Estudos - QG do Victor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-slate-200 min-h-screen flex flex-col justify-between bg-[#0b0f17]">
+
+    <main class="max-w-4xl mx-auto px-4 py-10">
+        <!-- Voltar -->
+        <a href="index.html" class="inline-flex items-center space-x-2 text-indigo-400 hover:text-indigo-300 text-sm font-semibold mb-6 transition-colors">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>Voltar ao QG Central</span>
+        </a>
+
+        <!-- Header do Tema -->
+        <div class="glass-card rounded-3xl p-6 sm:p-8 mb-8 border border-purple-500/20">
+            <div class="flex items-center space-x-3 mb-3">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-purple-950/80 text-purple-300 border border-purple-800/50">
+                    <i class="fa-solid fa-graduation-cap mr-1"></i> Estudos
+                </span>
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-medium bg-rose-950/60 text-rose-400 border border-rose-800/40">
+                    Impacto Crítico
+                </span>
+            </div>
+            <h1 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-4">Procrastinação Crônica nos Estudos</h1>
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                A procrastinação acadêmica não é preguiça, mas sim uma **resposta de esquiva emocional** gerada por ansiedade, medo de falhar ou perfeccionismo.
+            </p>
+        </div>
+
+        <!-- Ilustração Vetorial SVG -->
+        <div class="glass-card rounded-3xl p-6 mb-8 flex justify-center items-center bg-slate-900/80">
+            <svg class="w-full max-w-md h-48 sm:h-64" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="250" rx="16" fill="#0f172a"/>
+                <circle cx="200" cy="125" r="70" stroke="#818cf8" stroke-width="4" stroke-dasharray="10 6"/>
+                <path d="M200 70V125L235 140" stroke="#a78bfa" stroke-width="5" stroke-linecap="round"/>
+                <circle cx="200" cy="125" r="8" fill="#f43f5e"/>
+                <text x="200" y="220" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="sans-serif">Ciclo de Bloqueio Emocional vs. Tempo</text>
+            </svg>
+        </div>
+
+        <!-- Conteúdo Aprofundado em Módulos -->
+        <div class="space-y-6">
+            <!-- Módulo 1 -->
+            <div class="glass-card rounded-3xl p-6">
+                <h2 class="text-xl font-bold text-white mb-3 flex items-center">
+                    <i class="fa-solid fa-brain text-purple-400 mr-2"></i> 1. Mapeamento Neurobiológico do Problema
+                </h2>
+                <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                    Sua amígdala cerebral interpreta o volume gigante de estudos como uma ameaça. Para proteger seu humor, o cérebro busca dopamina rápida (redes sociais, vídeos, jogos).
+                </p>
+                <div class="bg-slate-900/90 p-4 rounded-2xl border border-slate-800">
+                    <h3 class="text-xs font-bold text-purple-300 uppercase tracking-wider mb-2">Gatilhos mais comuns:</h3>
+                    <ul class="list-disc list-inside text-xs sm:text-sm text-slate-300 space-y-1">
+                        <li>Falta de divisão de temas extensos em passos ridiculamente pequenos.</li>
+                        <li>Expectativa irreais de estudar 4 horas seguidas sem pausas.</li>
+                        <li>Ambiente saturado de distrações visuais e sonoras.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Módulo 2 -->
+            <div class="glass-card rounded-3xl p-6">
+                <h2 class="text-xl font-bold text-white mb-3 flex items-center">
+                    <i class="fa-solid fa-gears text-indigo-400 mr-2"></i> 2. Protocolo de Ação Antiprocrastinação
+                </h2>
+                <div class="space-y-3">
+                    <div class="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/40">
+                        <h4 class="text-sm font-bold text-indigo-300">Regra dos 5 Minutos (Micro-Engajamento)</h4>
+                        <p class="text-xs text-slate-300 mt-1">Comprometa-se a abrir o livro ou documento e estudar por APENAS 5 minutos. Se quiser parar depois disso, está liberado. Em 80% dos casos, vencer a inércia inicial é o bastante para continuar.</p>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/40">
+                        <h4 class="text-sm font-bold text-indigo-300">Técnica Pomodoro Modificada</h4>
+                        <p class="text-xs text-slate-300 mt-1">Estude em blocos de 25 minutos com foco total seguidos por 5 minutos de pausa REAL (fique longe de telas durante o descanso).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Módulo 3: Checklist Dinâmico -->
+            <div class="glass-card rounded-3xl p-6">
+                <h3 class="text-lg font-bold text-white mb-4 flex items-center">
+                    <i class="fa-solid fa-square-check text-emerald-400 mr-2"></i> Checklist Prático Diário
+                </h3>
+                <div class="space-y-2" id="checklist">
+                    <label class="flex items-center p-3 rounded-xl bg-slate-900/80 border border-slate-800 cursor-pointer hover:bg-slate-800/50 transition-all">
+                        <input type="checkbox" class="h-4 w-4 rounded border-slate-700 text-indigo-600 focus:ring-indigo-500 mr-3">
+                        <span class="text-xs sm:text-sm text-slate-300">Isolar o celular em outro cômodo antes de iniciar o bloco de estudo.</span>
+                    </label>
+                    <label class="flex items-center p-3 rounded-xl bg-slate-900/80 border border-slate-800 cursor-pointer hover:bg-slate-800/50 transition-all">
+                        <input type="checkbox" class="h-4 w-4 rounded border-slate-700 text-indigo-600 focus:ring-indigo-500 mr-3">
+                        <span class="text-xs sm:text-sm text-slate-300">Escrever em um papel a ÚNICA meta inegociável da sessão de hoje.</span>
+                    </label>
+                    <label class="flex items-center p-3 rounded-xl bg-slate-900/80 border border-slate-800 cursor-pointer hover:bg-slate-800/50 transition-all">
+                        <input type="checkbox" class="h-4 w-4 rounded border-slate-700 text-indigo-600 focus:ring-indigo-500 mr-3">
+                        <span class="text-xs sm:text-sm text-slate-300">Deixar a aba do material aberta no computador no dia anterior.</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
